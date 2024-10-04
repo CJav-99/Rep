@@ -2,7 +2,7 @@ import pygame, sys
 from pygame.locals import *
 pygame.init()
 DISPLAYSURF = pygame.display.set_mode((400,300))
-pygame.dispaly.set_caption('Hello world')
+pygame.display.set_caption('Hello world')
 while True:
     for event in pygame.event.get():
         print(event)
